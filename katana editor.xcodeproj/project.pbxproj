@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		98AC2A072D23A7FB00DBEA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98AC29EE2D23A7FA00DBEA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98AC29F52D23A7FA00DBEA61;
+			remoteInfo = "katana editor";
+		};
+		98AC2A112D23A7FB00DBEA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98AC29EE2D23A7FA00DBEA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98AC29F52D23A7FA00DBEA61;
+			remoteInfo = "katana editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98AC29F62D23A7FA00DBEA61 /* katana editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "katana editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AC2A062D23A7FB00DBEA61 /* katana editorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "katana editorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AC2A102D23A7FB00DBEA61 /* katana editorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "katana editorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		98AC29F82D23A7FA00DBEA61 /* katana editor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "katana editor";
+			sourceTree = "<group>";
+		};
+		98AC2A092D23A7FB00DBEA61 /* katana editorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "katana editorTests";
+			sourceTree = "<group>";
+		};
+		98AC2A132D23A7FB00DBEA61 /* katana editorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "katana editorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98AC29F32D23A7FA00DBEA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98AC2A032D23A7FB00DBEA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98AC2A0D2D23A7FB00DBEA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98AC29ED2D23A7FA00DBEA61 = {
+			isa = PBXGroup;
+			children = (
+				98AC29F82D23A7FA00DBEA61 /* katana editor */,
+				98AC2A092D23A7FB00DBEA61 /* katana editorTests */,
+				98AC2A132D23A7FB00DBEA61 /* katana editorUITests */,
+				98AC29F72D23A7FA00DBEA61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98AC29F72D23A7FA00DBEA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98AC29F62D23A7FA00DBEA61 /* katana editor.app */,
+				98AC2A062D23A7FB00DBEA61 /* katana editorTests.xctest */,
+				98AC2A102D23A7FB00DBEA61 /* katana editorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98AC29F52D23A7FA00DBEA61 /* katana editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98AC2A1A2D23A7FB00DBEA61 /* Build configuration list for PBXNativeTarget "katana editor" */;
+			buildPhases = (
+				98AC29F22D23A7FA00DBEA61 /* Sources */,
+				98AC29F32D23A7FA00DBEA61 /* Frameworks */,
+				98AC29F42D23A7FA00DBEA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98AC29F82D23A7FA00DBEA61 /* katana editor */,
+			);
+			name = "katana editor";
+			packageProductDependencies = (
+			);
+			productName = "katana editor";
+			productReference = 98AC29F62D23A7FA00DBEA61 /* katana editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98AC2A052D23A7FB00DBEA61 /* katana editorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98AC2A1D2D23A7FB00DBEA61 /* Build configuration list for PBXNativeTarget "katana editorTests" */;
+			buildPhases = (
+				98AC2A022D23A7FB00DBEA61 /* Sources */,
+				98AC2A032D23A7FB00DBEA61 /* Frameworks */,
+				98AC2A042D23A7FB00DBEA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98AC2A082D23A7FB00DBEA61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				98AC2A092D23A7FB00DBEA61 /* katana editorTests */,
+			);
+			name = "katana editorTests";
+			packageProductDependencies = (
+			);
+			productName = "katana editorTests";
+			productReference = 98AC2A062D23A7FB00DBEA61 /* katana editorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98AC2A0F2D23A7FB00DBEA61 /* katana editorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98AC2A202D23A7FB00DBEA61 /* Build configuration list for PBXNativeTarget "katana editorUITests" */;
+			buildPhases = (
+				98AC2A0C2D23A7FB00DBEA61 /* Sources */,
+				98AC2A0D2D23A7FB00DBEA61 /* Frameworks */,
+				98AC2A0E2D23A7FB00DBEA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98AC2A122D23A7FB00DBEA61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				98AC2A132D23A7FB00DBEA61 /* katana editorUITests */,
+			);
+			name = "katana editorUITests";
+			packageProductDependencies = (
+			);
+			productName = "katana editorUITests";
+			productReference = 98AC2A102D23A7FB00DBEA61 /* katana editorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98AC29EE2D23A7FA00DBEA61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					98AC29F52D23A7FA00DBEA61 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					98AC2A052D23A7FB00DBEA61 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 98AC29F52D23A7FA00DBEA61;
+					};
+					98AC2A0F2D23A7FB00DBEA61 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 98AC29F52D23A7FA00DBEA61;
+					};
+				};
+			};
+			buildConfigurationList = 98AC29F12D23A7FA00DBEA61 /* Build configuration list for PBXProject "katana editor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98AC29ED2D23A7FA00DBEA61;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 98AC29F72D23A7FA00DBEA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98AC29F52D23A7FA00DBEA61 /* katana editor */,
+				98AC2A052D23A7FB00DBEA61 /* katana editorTests */,
+				98AC2A0F2D23A7FB00DBEA61 /* katana editorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98AC29F42D23A7FA00DBEA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98AC2A042D23A7FB00DBEA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98AC2A0E2D23A7FB00DBEA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98AC29F22D23A7FA00DBEA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98AC2A022D23A7FB00DBEA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98AC2A0C2D23A7FB00DBEA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98AC2A082D23A7FB00DBEA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98AC29F52D23A7FA00DBEA61 /* katana editor */;
+			targetProxy = 98AC2A072D23A7FB00DBEA61 /* PBXContainerItemProxy */;
+		};
+		98AC2A122D23A7FB00DBEA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98AC29F52D23A7FA00DBEA61 /* katana editor */;
+			targetProxy = 98AC2A112D23A7FB00DBEA61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98AC2A182D23A7FB00DBEA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98AC2A192D23A7FB00DBEA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98AC2A1B2D23A7FB00DBEA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"katana editor/Preview Content\"";
+				DEVELOPMENT_TEAM = U794BZKF2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mabsoft.katana-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98AC2A1C2D23A7FB00DBEA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"katana editor/Preview Content\"";
+				DEVELOPMENT_TEAM = U794BZKF2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mabsoft.katana-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98AC2A1E2D23A7FB00DBEA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U794BZKF2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mabsoft.katana-editorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/katana editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/katana editor";
+			};
+			name = Debug;
+		};
+		98AC2A1F2D23A7FB00DBEA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U794BZKF2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mabsoft.katana-editorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/katana editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/katana editor";
+			};
+			name = Release;
+		};
+		98AC2A212D23A7FB00DBEA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U794BZKF2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mabsoft.katana-editorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "katana editor";
+			};
+			name = Debug;
+		};
+		98AC2A222D23A7FB00DBEA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U794BZKF2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mabsoft.katana-editorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "katana editor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98AC29F12D23A7FA00DBEA61 /* Build configuration list for PBXProject "katana editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AC2A182D23A7FB00DBEA61 /* Debug */,
+				98AC2A192D23A7FB00DBEA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98AC2A1A2D23A7FB00DBEA61 /* Build configuration list for PBXNativeTarget "katana editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AC2A1B2D23A7FB00DBEA61 /* Debug */,
+				98AC2A1C2D23A7FB00DBEA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98AC2A1D2D23A7FB00DBEA61 /* Build configuration list for PBXNativeTarget "katana editorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AC2A1E2D23A7FB00DBEA61 /* Debug */,
+				98AC2A1F2D23A7FB00DBEA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98AC2A202D23A7FB00DBEA61 /* Build configuration list for PBXNativeTarget "katana editorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AC2A212D23A7FB00DBEA61 /* Debug */,
+				98AC2A222D23A7FB00DBEA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98AC29EE2D23A7FA00DBEA61 /* Project object */;
+}
