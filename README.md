@@ -24,7 +24,8 @@
    ```bash
    git clone https://github.com/markxbrooks/katana-editor.git
 
-2. Open in Xcode: Navigate to the project directory and open katana editor.xcodeproj with Xcode. 3. Build and Run: Connect your iOS device, select it as the build target, and run the project.
+2. Open in Xcode: Navigate to the project directory and open katana editor.xcodeproj with Xcode.
+3. Build and Run: Connect your iOS device, select it as the build target, and run the project.
 
 Usage
 
