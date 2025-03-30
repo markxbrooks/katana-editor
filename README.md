@@ -4,19 +4,19 @@
 
 # Katana Editor for iOS
 
-**Katana Editor** is an iOS application designed to provide users with comprehensive control over their [BOSS Katana](https://www.boss.info/global/products/katana-50/) guitar amplifiers. This app enables musicians to adjust and customize their amplifier settings directly from their iOS devices, offering a seamless and intuitive interface.&#8203;:contentReference[oaicite:2]{index=2}
+**Katana Editor** is an iOS application designed to provide users with comprehensive control over their [BOSS Katana](https://www.boss.info/global/products/katana-50/) guitar amplifiers. This app enables musicians to adjust and customize their amplifier settings directly from their iOS devices, offering a seamless and intuitive interface
 
 ## Features
 
-- **Real-Time Control**: :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
-- **Preset Management**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
-- **User-Friendly Interface**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
+- **Real-Time Control**: 
+- **Preset Management**: 
+- **User-Friendly Interface**: 
 
 ## Requirements
 
-- **Compatible Devices**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
-- **Hardware**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
-- **Cables**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+- **Compatible Devices**: 
+- **Hardware**: 
+- **Cables**: 
 
 ## Installation
 
@@ -42,8 +42,6 @@ This project is licensed under the MIT License.​
 Acknowledgments
 
 Special thanks to the katana-dev community for their resources and support in developing tools for the BOSS Katana amplifiers.​
-
-::contentReference[oaicite:23]{index=23}
  
 
 
