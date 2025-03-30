@@ -1,0 +1,1 @@
+<a href="./katana-editor/blob/main/katana%20editor/Assets.xcassets/AppIcon.appiconset/KatanaEditor%201.png" rel="Current view of the Roland JD-Xi Manager App">![image info](./resources/main_window_600.png ) </a>
