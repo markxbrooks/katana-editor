@@ -29,7 +29,7 @@
 
 Usage
 
-Connect Your Device: Use a compatible USB-to-Lightning adapter to connect your iOS device to the BOSS Katana amplifier.
+Connect Your Device: Use a compatible USB-to-bluetooth midi adapter e.g.: [1](https://www.amazon.com/CME-WIDI-Uhost-instruments-Controllers/dp/B09GS326QW/ref=asc_df_B09GS326QW?)]) to connect your iOS device to the BOSS Katana amplifier.
 Launch the App: Open the Katana Editor app on your device.
 Adjust Settings: Use the app's interface to modify amplifier settings, switch between presets, and customize your sound.
 Contributing
